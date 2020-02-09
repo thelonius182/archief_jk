@@ -48,9 +48,6 @@ cz_lcs <- function(string1, string2) {
         }
         else {
           num[i1, j1] <- 1 + num[i1 - 1, j1 - 1]
-          # if (num[i1, j1] == 1) {
-          #   start <- i1
-          # }
         }
         if (num[i1, j1] > maxlen) {
           maxlen <- num[i1, j1]
